@@ -9,3 +9,4 @@ Schedule
 Week of| Tuesday       | Thursday           |
 -------|:-------------:|:-----------------: |
 Sept 23| Objective-C I | Objective-C Lab I  |
+Sept 30| Objective-C Lab II | No Meeting    |
