@@ -14,4 +14,7 @@ Oct 6  | BlueJay Setup | BlueJay: Twitter API Requests |
 Oct 13 | - | Foundation Review |
 Oct 20 | - | App Competition |
 Oct 27 | - | Review |
+Nov 3 | - | |
+Nov 10 | - | Table Views |
+Nov 17 | - | View Animations |
 
