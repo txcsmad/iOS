@@ -3,8 +3,16 @@ iOS
 This is where you will find powerpoints, demos, examples, etc. presented during MAD iOS meetings.
 
 
-Schedule
-------------
+Current Schedule
+-----------------
+
+Week of| Tuesday       | 
+-------|:-------------:|
+Jan 26| iOS Intro Lab |   
+
+
+Fall 2013 Schedule
+------------------
 
 Week of| Tuesday       | Thursday           |
 -------|:-------------:|:-----------------: |
