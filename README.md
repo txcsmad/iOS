@@ -8,8 +8,8 @@ Current Schedule
 
 Week of| Tuesday       | 
 -------|:-------------:|
-Jan 26| iOS Intro Lab |   
-
+Jan 26| Canceled due to weather |   
+Feb 2| iOS Intro Lab |
 
 Fall 2013 Schedule
 ------------------
