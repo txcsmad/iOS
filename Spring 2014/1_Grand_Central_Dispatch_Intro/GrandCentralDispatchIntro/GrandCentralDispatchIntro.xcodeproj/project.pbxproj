@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7D740E189AE076009F824A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7D740D189AE076009F824A /* Foundation.framework */; };
+		DD7D7410189AE076009F824A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7D740F189AE076009F824A /* CoreGraphics.framework */; };
+		DD7D7412189AE076009F824A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7D7411189AE076009F824A /* UIKit.framework */; };
+		DD7D7418189AE076009F824A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD7D7416189AE076009F824A /* InfoPlist.strings */; };
+		DD7D741A189AE076009F824A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D7419189AE076009F824A /* main.m */; };
+		DD7D741E189AE076009F824A /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D741D189AE076009F824A /* MADAppDelegate.m */; };
+		DD7D7440189B3EC9009F824A /* GCDSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D743F189B3EC9009F824A /* GCDSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD7D740A189AE076009F824A /* GrandCentralDispatchIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandCentralDispatchIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7D740D189AE076009F824A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD7D740F189AE076009F824A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD7D7411189AE076009F824A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD7D7415189AE076009F824A /* GrandCentralDispatchIntro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrandCentralDispatchIntro-Info.plist"; sourceTree = "<group>"; };
+		DD7D7417189AE076009F824A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD7D7419189AE076009F824A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD7D741B189AE076009F824A /* GrandCentralDispatchIntro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrandCentralDispatchIntro-Prefix.pch"; sourceTree = "<group>"; };
+		DD7D741C189AE076009F824A /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		DD7D741D189AE076009F824A /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		DD7D7426189AE076009F824A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD7D743E189B3EC9009F824A /* GCDSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSingleton.h; sourceTree = "<group>"; };
+		DD7D743F189B3EC9009F824A /* GCDSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7D7407189AE076009F824A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7D7410189AE076009F824A /* CoreGraphics.framework in Frameworks */,
+				DD7D7412189AE076009F824A /* UIKit.framework in Frameworks */,
+				DD7D740E189AE076009F824A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7D7401189AE076009F824A = {
+			isa = PBXGroup;
+			children = (
+				DD7D7413189AE076009F824A /* GrandCentralDispatchIntro */,
+				DD7D740C189AE076009F824A /* Frameworks */,
+				DD7D740B189AE076009F824A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7D740B189AE076009F824A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D740A189AE076009F824A /* GrandCentralDispatchIntro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7D740C189AE076009F824A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D740D189AE076009F824A /* Foundation.framework */,
+				DD7D740F189AE076009F824A /* CoreGraphics.framework */,
+				DD7D7411189AE076009F824A /* UIKit.framework */,
+				DD7D7426189AE076009F824A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7D7413189AE076009F824A /* GrandCentralDispatchIntro */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D743D189B3EA0009F824A /* GCDSingleton */,
+				DD7D743C189AE089009F824A /* AppDelegate */,
+				DD7D7414189AE076009F824A /* Supporting Files */,
+			);
+			path = GrandCentralDispatchIntro;
+			sourceTree = "<group>";
+		};
+		DD7D7414189AE076009F824A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D7415189AE076009F824A /* GrandCentralDispatchIntro-Info.plist */,
+				DD7D7416189AE076009F824A /* InfoPlist.strings */,
+				DD7D7419189AE076009F824A /* main.m */,
+				DD7D741B189AE076009F824A /* GrandCentralDispatchIntro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD7D743C189AE089009F824A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D741C189AE076009F824A /* MADAppDelegate.h */,
+				DD7D741D189AE076009F824A /* MADAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DD7D743D189B3EA0009F824A /* GCDSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D743E189B3EC9009F824A /* GCDSingleton.h */,
+				DD7D743F189B3EC9009F824A /* GCDSingleton.m */,
+			);
+			name = GCDSingleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7D7409189AE076009F824A /* GrandCentralDispatchIntro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7D7436189AE076009F824A /* Build configuration list for PBXNativeTarget "GrandCentralDispatchIntro" */;
+			buildPhases = (
+				DD7D7406189AE076009F824A /* Sources */,
+				DD7D7407189AE076009F824A /* Frameworks */,
+				DD7D7408189AE076009F824A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrandCentralDispatchIntro;
+			productName = GrandCentralDispatchIntro;
+			productReference = DD7D740A189AE076009F824A /* GrandCentralDispatchIntro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7D7402189AE076009F824A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Comyar Zaheri";
+			};
+			buildConfigurationList = DD7D7405189AE076009F824A /* Build configuration list for PBXProject "GrandCentralDispatchIntro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD7D7401189AE076009F824A;
+			productRefGroup = DD7D740B189AE076009F824A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7D7409189AE076009F824A /* GrandCentralDispatchIntro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7D7408189AE076009F824A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7D7418189AE076009F824A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7D7406189AE076009F824A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7D741A189AE076009F824A /* main.m in Sources */,
+				DD7D7440189B3EC9009F824A /* GCDSingleton.m in Sources */,
+				DD7D741E189AE076009F824A /* MADAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD7D7416189AE076009F824A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7D7417189AE076009F824A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7D7434189AE076009F824A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7D7435189AE076009F824A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7D7437189AE076009F824A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrandCentralDispatchIntro/GrandCentralDispatchIntro-Prefix.pch";
+				INFOPLIST_FILE = "GrandCentralDispatchIntro/GrandCentralDispatchIntro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD7D7438189AE076009F824A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrandCentralDispatchIntro/GrandCentralDispatchIntro-Prefix.pch";
+				INFOPLIST_FILE = "GrandCentralDispatchIntro/GrandCentralDispatchIntro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7D7405189AE076009F824A /* Build configuration list for PBXProject "GrandCentralDispatchIntro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7D7434189AE076009F824A /* Debug */,
+				DD7D7435189AE076009F824A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7D7436189AE076009F824A /* Build configuration list for PBXNativeTarget "GrandCentralDispatchIntro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7D7437189AE076009F824A /* Debug */,
+				DD7D7438189AE076009F824A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7D7402189AE076009F824A /* Project object */;
+}
