@@ -6,10 +6,10 @@ This is where you will find powerpoints, demos, examples, etc. presented during 
 Current Schedule
 -----------------
 
-Week of| Tuesday       | 
--------|:-------------:|
-Jan 26| iOS Intro Lab |   
-
+Week of| Tuesday       | Thursday
+-------|:-------------:|:-------------:|
+Jan 26| Canceled due to weather | Foundation & UIKit Review |
+Feb 2| iOS Intro Lab |
 
 Fall 2013 Schedule
 ------------------
