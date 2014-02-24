@@ -9,7 +9,10 @@ Current Schedule
 Week of| Tuesday       | Thursday
 -------|:-------------:|:-------------:|
 Jan 26| Canceled due to weather | Foundation & UIKit Review |
-Feb 2| iOS Intro Lab |
+Feb 2| iOS Intro Lab | Canceled due to uMAD |
+Feb 9 | iOS Detailed Intro Lab | Data Persistance |
+Feb 16 | Table Views | Begin Planning MADcast |
+
 
 Fall 2013 Schedule
 ------------------
