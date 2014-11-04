@@ -15,6 +15,10 @@
 		A9057F431A003C8800971E45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9057F421A003C8800971E45 /* Images.xcassets */; };
 		A9057F461A003C8800971E45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9057F441A003C8800971E45 /* LaunchScreen.xib */; };
 		A9057F521A003C8900971E45 /* It_s_RainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9057F511A003C8900971E45 /* It_s_RainingTests.swift */; };
+		A90BB8161A0313C4009457E3 /* Raining.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90BB8151A0313C4009457E3 /* Raining.swift */; };
+		A90BB84A1A031803009457E3 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90BB8491A031803009457E3 /* Util.swift */; };
+		A90BB84C1A031F30009457E3 /* cloud.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A90BB84B1A031F30009457E3 /* cloud.fsh */; };
+		A90E20F21A093FD500302DE1 /* GL.m in Sources */ = {isa = PBXBuildFile; fileRef = A90E20F11A093FD500302DE1 /* GL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		A9057F4B1A003C8800971E45 /* It's RainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "It's RainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9057F501A003C8800971E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9057F511A003C8900971E45 /* It_s_RainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = It_s_RainingTests.swift; sourceTree = "<group>"; };
+		A90BB8151A0313C4009457E3 /* Raining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Raining.swift; sourceTree = "<group>"; };
+		A90BB8491A031803009457E3 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A90BB84B1A031F30009457E3 /* cloud.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cloud.fsh; sourceTree = "<group>"; };
+		A90E20E81A093F0200302DE1 /* It's Raining-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "It's Raining-Bridging-Header.h"; sourceTree = "<group>"; };
+		A90E20F11A093FD500302DE1 /* GL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GL.m; sourceTree = "<group>"; };
+		A90E20F31A093FE100302DE1 /* GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GL.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +91,12 @@
 		A9057F341A003C8800971E45 /* It's Raining */ = {
 			isa = PBXGroup;
 			children = (
-				A9057F371A003C8800971E45 /* AppDelegate.swift */,
-				A9057F391A003C8800971E45 /* GameScene.sks */,
-				A9057F3B1A003C8800971E45 /* GameScene.swift */,
-				A9057F3D1A003C8800971E45 /* GameViewController.swift */,
-				A9057F3F1A003C8800971E45 /* Main.storyboard */,
+				A90E20EC1A093F6600302DE1 /* Template */,
+				A90E20EB1A093F3F00302DE1 /* Game */,
 				A9057F421A003C8800971E45 /* Images.xcassets */,
 				A9057F441A003C8800971E45 /* LaunchScreen.xib */,
 				A9057F351A003C8800971E45 /* Supporting Files */,
+				A90E20E81A093F0200302DE1 /* It's Raining-Bridging-Header.h */,
 			);
 			path = "It's Raining";
 			sourceTree = "<group>";
@@ -116,6 +124,38 @@
 				A9057F501A003C8800971E45 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A90E20EB1A093F3F00302DE1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				A9057F3B1A003C8800971E45 /* GameScene.swift */,
+				A90BB8151A0313C4009457E3 /* Raining.swift */,
+				A90BB8491A031803009457E3 /* Util.swift */,
+				A90E20F31A093FE100302DE1 /* GL.h */,
+				A90E20F11A093FD500302DE1 /* GL.m */,
+				A90E20ED1A093F7000302DE1 /* Resources */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		A90E20EC1A093F6600302DE1 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				A9057F371A003C8800971E45 /* AppDelegate.swift */,
+				A9057F391A003C8800971E45 /* GameScene.sks */,
+				A9057F3D1A003C8800971E45 /* GameViewController.swift */,
+				A9057F3F1A003C8800971E45 /* Main.storyboard */,
+			);
+			name = Template;
+			sourceTree = "<group>";
+		};
+		A90E20ED1A093F7000302DE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A90BB84B1A031F30009457E3 /* cloud.fsh */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +241,7 @@
 				A9057F461A003C8800971E45 /* LaunchScreen.xib in Resources */,
 				A9057F431A003C8800971E45 /* Images.xcassets in Resources */,
 				A9057F3A1A003C8800971E45 /* GameScene.sks in Resources */,
+				A90BB84C1A031F30009457E3 /* cloud.fsh in Resources */,
 				A9057F411A003C8800971E45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9057F3C1A003C8800971E45 /* GameScene.swift in Sources */,
+				A90BB8161A0313C4009457E3 /* Raining.swift in Sources */,
+				A90BB84A1A031803009457E3 /* Util.swift in Sources */,
 				A9057F3E1A003C8800971E45 /* GameViewController.swift in Sources */,
+				A90E20F21A093FD500302DE1 /* GL.m in Sources */,
 				A9057F381A003C8800971E45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,9 +388,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "It's Raining/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "It's Raining/It's Raining-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,9 +401,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "It's Raining/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "It's Raining/It's Raining-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +462,7 @@
 				A9057F571A003C8900971E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9057F581A003C8900971E45 /* Build configuration list for PBXNativeTarget "It's RainingTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +471,7 @@
 				A9057F5A1A003C8900971E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,7 +11,17 @@ import SpriteKit
 class GameScene: SKScene {
     
     override func didMoveToView(view: SKView) {
-        physicsWorld.gravity = CGVector(dx: 0, dy: -9.6)
+        
+        // Make some clouds within cloudsFrame
+        // Make all clouds children of a single SKNode,
+        // then reposition the parent to move the entire group
+        let cloudsFrame = CGRect(center: CGPointZero,
+            size: CGSize(width: 800, height: 30))
+        
+        let storm = clouds(cloudsFrame, 35)
+        storm.position.x = frame.midX
+        storm.position.y = frame.height - 30
+        addChild(storm)
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
