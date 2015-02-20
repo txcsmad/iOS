@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E18593B71A94169500A0D620 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18593B61A94169500A0D620 /* BlockView.swift */; };
+		E18593B91A941C8300A0D620 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = E18593B81A941C8300A0D620 /* block.png */; };
 		E1B93FA31A8AD2CB00E184DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B93FA21A8AD2CB00E184DE /* AppDelegate.swift */; };
 		E1B93FA51A8AD2CB00E184DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B93FA41A8AD2CB00E184DE /* ViewController.swift */; };
 		E1B93FA81A8AD2CB00E184DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B93FA61A8AD2CB00E184DE /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E18593B61A94169500A0D620 /* BlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = SOURCE_ROOT; };
+		E18593B81A941C8300A0D620 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
 		E1B93F9D1A8AD2CB00E184DE /* Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B93FA11A8AD2CB00E184DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B93FA21A8AD2CB00E184DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,8 +90,10 @@
 				E1B93FA21A8AD2CB00E184DE /* AppDelegate.swift */,
 				E1B93FA41A8AD2CB00E184DE /* ViewController.swift */,
 				E1B93FFC1A8AE1C000E184DE /* BallView.swift */,
+				E18593B61A94169500A0D620 /* BlockView.swift */,
 				E1B93FF61A8AD7B800E184DE /* ball.png */,
 				E1B93FF71A8AD7B800E184DE /* paddle.png */,
+				E18593B81A941C8300A0D620 /* block.png */,
 				E1B93FA61A8AD2CB00E184DE /* Main.storyboard */,
 				E1B93FA91A8AD2CB00E184DE /* Images.xcassets */,
 				E1B93FAB1A8AD2CB00E184DE /* LaunchScreen.xib */,
@@ -206,6 +212,7 @@
 				E1B93FAD1A8AD2CB00E184DE /* LaunchScreen.xib in Resources */,
 				E1B93FF81A8AD7B800E184DE /* ball.png in Resources */,
 				E1B93FAA1A8AD2CB00E184DE /* Images.xcassets in Resources */,
+				E18593B91A941C8300A0D620 /* block.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18593B71A94169500A0D620 /* BlockView.swift in Sources */,
 				E1B93FFD1A8AE1C000E184DE /* BallView.swift in Sources */,
 				E1B93FA51A8AD2CB00E184DE /* ViewController.swift in Sources */,
 				E1B93FA31A8AD2CB00E184DE /* AppDelegate.swift in Sources */,
@@ -417,6 +425,7 @@
 				E1B93FBE1A8AD2CB00E184DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1B93FBF1A8AD2CB00E184DE /* Build configuration list for PBXNativeTarget "BreakoutTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +434,7 @@
 				E1B93FC11A8AD2CB00E184DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

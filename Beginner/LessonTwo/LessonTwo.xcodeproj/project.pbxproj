@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E18593BB1A94342F00A0D620 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18593BA1A94342F00A0D620 /* BlockView.swift */; };
 		E1B9400D1A8AEA5100E184DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B9400C1A8AEA5100E184DE /* AppDelegate.swift */; };
 		E1B9400F1A8AEA5100E184DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B9400E1A8AEA5100E184DE /* ViewController.swift */; };
 		E1B940121A8AEA5100E184DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B940101A8AEA5100E184DE /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E18593BA1A94342F00A0D620 /* BlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
 		E1B940071A8AEA5100E184DE /* LessonTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B9400B1A8AEA5100E184DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B9400C1A8AEA5100E184DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				E1B9400C1A8AEA5100E184DE /* AppDelegate.swift */,
 				E1B9400E1A8AEA5100E184DE /* ViewController.swift */,
+				E18593BA1A94342F00A0D620 /* BlockView.swift */,
 				E1B940301A8AFC0E00E184DE /* BallView.swift */,
 				E1B940101A8AEA5100E184DE /* Main.storyboard */,
 				E1B940131A8AEA5100E184DE /* Images.xcassets */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18593BB1A94342F00A0D620 /* BlockView.swift in Sources */,
 				E1B940311A8AFC0E00E184DE /* BallView.swift in Sources */,
 				E1B9400F1A8AEA5100E184DE /* ViewController.swift in Sources */,
 				E1B9400D1A8AEA5100E184DE /* AppDelegate.swift in Sources */,
@@ -417,6 +421,7 @@
 				E1B940281A8AEA5100E184DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1B940291A8AEA5100E184DE /* Build configuration list for PBXNativeTarget "LessonTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				E1B9402B1A8AEA5100E184DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
