@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Mixer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0W-Dx-b3m">
+                                <rect key="frame" x="0.0" y="50" width="300" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="250" constant="200" id="8pR-iO-Q7X"/>
+                                    <constraint firstAttribute="height" priority="250" constant="200" id="ej0-2y-tDd"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonOnePressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gwl-3U-Iq4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VW4-rt-LCF">
+                                <rect key="frame" x="300" y="50" width="300" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="200" id="edT-8e-GtA"/>
+                                    <constraint firstAttribute="width" priority="250" constant="200" id="vbd-lw-IJC"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTwoPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nue-Zs-lG9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFQ-9V-qZa">
+                                <rect key="frame" x="300" y="325" width="300" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="250" constant="200" id="hYk-ur-9hp"/>
+                                    <constraint firstAttribute="height" priority="250" constant="200" id="weX-NC-KWo"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8u-Sm-Cbg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HNC-uF-qiP"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HI4-0A-wdc">
+                                <rect key="frame" x="0.0" y="325" width="300" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="200" id="Jdq-Un-IdM"/>
+                                    <constraint firstAttribute="width" priority="250" constant="200" id="Tse-bB-R5c"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HI4-0A-wdc" firstAttribute="width" secondItem="xFQ-9V-qZa" secondAttribute="width" id="0bt-jo-0qZ"/>
+                            <constraint firstItem="f0W-Dx-b3m" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="16y-Mr-FWz"/>
+                            <constraint firstAttribute="trailing" secondItem="xFQ-9V-qZa" secondAttribute="trailing" id="3ly-qf-Dle"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="HI4-0A-wdc" secondAttribute="bottom" id="6p0-ea-pON"/>
+                            <constraint firstItem="xFQ-9V-qZa" firstAttribute="height" secondItem="HI4-0A-wdc" secondAttribute="height" id="6qx-D5-g4Y"/>
+                            <constraint firstItem="p8u-Sm-Cbg" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="9fX-D3-0my"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="xFQ-9V-qZa" secondAttribute="bottom" id="ASj-Uc-mhj"/>
+                            <constraint firstItem="xFQ-9V-qZa" firstAttribute="height" secondItem="f0W-Dx-b3m" secondAttribute="height" id="DRM-jZ-UtO"/>
+                            <constraint firstItem="xFQ-9V-qZa" firstAttribute="leading" secondItem="HI4-0A-wdc" secondAttribute="trailing" id="NCY-ZL-3dS"/>
+                            <constraint firstItem="HI4-0A-wdc" firstAttribute="top" secondItem="f0W-Dx-b3m" secondAttribute="bottom" id="So6-hV-sqP"/>
+                            <constraint firstItem="f0W-Dx-b3m" firstAttribute="width" secondItem="VW4-rt-LCF" secondAttribute="width" id="U4a-xV-ps4"/>
+                            <constraint firstItem="HI4-0A-wdc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="VVs-dw-Omt"/>
+                            <constraint firstItem="p8u-Sm-Cbg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="dYI-3F-YQc"/>
+                            <constraint firstItem="VW4-rt-LCF" firstAttribute="leading" secondItem="f0W-Dx-b3m" secondAttribute="trailing" id="iM5-4v-MAN"/>
+                            <constraint firstAttribute="trailing" secondItem="p8u-Sm-Cbg" secondAttribute="trailing" id="oHV-xf-A9X"/>
+                            <constraint firstItem="xFQ-9V-qZa" firstAttribute="height" secondItem="VW4-rt-LCF" secondAttribute="height" id="qJU-kg-D9r"/>
+                            <constraint firstItem="xFQ-9V-qZa" firstAttribute="top" secondItem="VW4-rt-LCF" secondAttribute="bottom" id="sVB-l2-lHo"/>
+                            <constraint firstAttribute="trailing" secondItem="VW4-rt-LCF" secondAttribute="trailing" id="usO-zG-aEz"/>
+                            <constraint firstItem="f0W-Dx-b3m" firstAttribute="top" secondItem="p8u-Sm-Cbg" secondAttribute="bottom" id="xt1-qW-2Kd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressBar" destination="p8u-Sm-Cbg" id="8oj-tI-u7g"/>
+                        <outlet property="sampleFour" destination="xFQ-9V-qZa" id="15Q-aG-Ayf"/>
+                        <outlet property="sampleOne" destination="f0W-Dx-b3m" id="FU9-MR-Y6W"/>
+                        <outlet property="sampleThree" destination="HI4-0A-wdc" id="xbV-Ne-dse"/>
+                        <outlet property="sampleTwo" destination="VW4-rt-LCF" id="gfF-83-Kuv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="492"/>
+        </scene>
+    </scenes>
+</document>
